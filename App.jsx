@@ -1,10 +1,15 @@
 import ProductCard from "./ProductCard";
+import LikeButton from "./LikeButton";
 
 function App() {
   return (
-    <div>
+    <div style={{ padding: "20px" }}>
       <h1>Our Products</h1>
 
+      {/* Task 2: Interactive Like Button */}
+      <LikeButton />
+
+      {/* Task 1: Reusable Product Cards */}
       <ProductCard
         title="Laptop"
         price="800"
