@@ -1,10 +1,14 @@
 import ProductCard from "./ProductCard";
 import LikeButton from "./LikeButton";
+import StudentList from "./StudentList";
 
 function App() {
   return (
     <div style={{ padding: "20px" }}>
-      <h1>Our Products</h1>
+      <h1>React Tasks</h1>
+
+      {/* Task 3: List & Conditional Rendering */}
+      <StudentList />
 
       {/* Task 2: Interactive Like Button */}
       <LikeButton />
